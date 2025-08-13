@@ -61,6 +61,7 @@ a {
 /* container */
 .section {
   height: 100vh;
+  padding: 0 5px;
 }
 .introduction-section {
   height: 100%;
@@ -109,6 +110,7 @@ a {
 }
 .introduction-section .left-cont .sub-container3 p {
   font-size: 15px;
+  font-weight: 300;
   animation: btnslide 3.5s ease-in;
 }
 
@@ -189,8 +191,17 @@ a {
 }
 .about-container .about-right-cont p {
   text-align: justify;
+  font-weight: 300;
 }
 /* projects */
+.project-section .project-intro,
+.project-container .project-box .description p,
+.techStack-section .techstack-description,
+.techStack-section .tech-box p,
+.footer-left p,
+.footer-left div a {
+  font-weight: 300;
+}
 .project-section {
   height: 100%;
   display: flex;
@@ -301,6 +312,7 @@ a {
   flex-wrap: wrap;
   column-gap: 20px;
   justify-content: space-evenly;
+  padding-bottom: 10px;
 }
 .footer-main-container .footer-left div {
   display: flex;
@@ -413,7 +425,7 @@ a {
   }
   .introduction-section .right-cont img {
     width: 40%;
-    height: auto;
+    height: 80%;
   }
   .introduction-section .left-cont,
   .right-cont {
@@ -460,6 +472,7 @@ a {
   }
   .introduction-section .right-cont img {
     width: 50%;
+    height: 80%;
   }
   .about-section {
     scroll-margin-top: 65px;

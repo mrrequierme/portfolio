@@ -145,7 +145,7 @@ a {
 .introduction-section .right-cont img {
   height: 50%;
   width: 50%;
-  border-radius: 10%;
+  border-radius: 20px;
   animation: imgslide 3.5s ease;
 }
 @keyframes imgslide {
@@ -471,8 +471,7 @@ a {
     grid-template-columns: 1fr;
   }
   .introduction-section .right-cont img {
-    width: 50%;
-    height: 80%;
+    height: 70%;
   }
   .about-section {
     scroll-margin-top: 65px;

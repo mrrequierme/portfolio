@@ -396,7 +396,6 @@ a {
   }
   .about-container {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
     row-gap: 20px;
   }
   .about-section,
@@ -414,9 +413,7 @@ a {
     scroll-margin-top: 50px;
     padding-bottom: 10px;
   }
-  .about-container {
-    grid-template-rows: 44% 1fr;
-  }
+
   .introduction-section {
     grid-template-columns: 1fr;
   }
@@ -475,9 +472,6 @@ a {
   }
 }
 @media (max-width: 330px) {
-  .about-container {
-    grid-template-rows: 1fr 1fr;
-  }
   .about-container .about-left-cont {
     grid-template-columns: 1fr;
   }

@@ -278,7 +278,7 @@ a {
   flex-wrap: wrap;
   column-gap: 30px;
   row-gap: 20px;
-  width: 60%;
+  width: 40%;
   margin: auto;
 }
 .techStack-section .tech-box {
@@ -296,6 +296,9 @@ a {
 }
 .techStack-section .tech-box i {
   font-size: 35px;
+}
+.techStack-section .tech-box img {
+  width: 40px;
 }
 .techStack-section .tech-box p {
   font-size: 15px;
